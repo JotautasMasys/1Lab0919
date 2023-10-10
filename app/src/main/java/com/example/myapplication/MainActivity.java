@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -22,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
         this.tvMain.setText("Labas pasauli!");
     }
+
+    public void OnButtonChangeTextColorClick(View view) {
+        this.tvMain.setTextColor(Color.parseColor("#0F9D58"));
+    }
+
+
+    //Kažkokia papildoma funkcija mes gražinsime
 }
