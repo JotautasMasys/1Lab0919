@@ -30,5 +30,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     //Kažkokia papildoma funkcija mes gražinsime
-    // Turime ištrinti vieną funkcija
 }
